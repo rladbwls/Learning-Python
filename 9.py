@@ -1,8 +1,0 @@
-a = input()
-b = input()
-a = int(a)
-b = int(b)
-print(a * (b % 10))
-print((a * ((b % 100) - (b % 10)))//10)
-print((a * (b % 1000)- (a * ((b % 100))))//100)
-print(a * b)
